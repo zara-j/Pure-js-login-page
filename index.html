@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="./assets/Vazirmatn/Vazirmatn-VariableFont_wght.ttf" rel="preload" as="font" type="font/ttf" crossorigin>
+    <script src="https://kit.fontawesome.com/bd41cd02a3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+
+<body id="page1" style="background-image: url(./assets/images/background1.png);">
+    <div class="login-container">
+        <form class="login-form">
+            <div class="input-title">
+                <h1>Log In</h1>
+            </div>
+            <div class="input-container">
+                <input id="username" type="text" placeholder="Username">
+                <span class="icon"><i class="fa-solid fa-user"></i></span>
+            </div>
+            <div class="input-container">
+                <input id="password" type="password" placeholder="Password">
+                <span class="icon"><i class="fa-solid fa-lock"></i></span>
+            </div>
+            <button type="button" onclick="validateLogin()">Log In</button>
+        </form>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <p id="modal-text"></p>
+            <button id="modal-button">OK</button>
+        </div>
+    </div>
+
+    <script src="./assets/javascript/script.js"></script>
+</body>
+
+</html>
